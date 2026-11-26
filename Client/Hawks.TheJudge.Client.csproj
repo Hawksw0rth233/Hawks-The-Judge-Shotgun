@@ -1,19 +1,48 @@
 <Project Sdk="Microsoft.NET.Sdk">
- <PropertyGroup><TargetFramework>net472</TargetFramework><LangVersion>latest</LangVersion><AssemblyName>Hawks.TheJudge.Client</AssemblyName></PropertyGroup>
- <ItemGroup>
-  <Reference Include="EFT"><HintPath>E:\SPT 4.1.6\EscapeFromTarkov_Data\Managed\Assembly-CSharp.dll</HintPath><Private>false</Private></Reference>
-  <Reference Include="BepInEx"><HintPath>E:\SPT 4.1.6\BepInEx\core\BepInEx.dll</HintPath><Private>false</Private></Reference>
-  <Reference Include="0Harmony"><HintPath>E:\SPT 4.1.6\BepInEx\core\0Harmony.dll</HintPath><Private>false</Private></Reference>
-  <Reference Include="UnityEngine"><HintPath>E:\SPT 4.1.6\EscapeFromTarkov_Data\Managed\UnityEngine.dll</HintPath><Private>false</Private></Reference>
-  <Reference Include="UnityEngine.CoreModule"><HintPath>E:\SPT 4.1.6\EscapeFromTarkov_Data\Managed\UnityEngine.CoreModule.dll</HintPath><Private>false</Private></Reference>
-  <Reference Include="UnityEngine.AnimationModule"><HintPath>E:\SPT 4.1.6\EscapeFromTarkov_Data\Managed\UnityEngine.AnimationModule.dll</HintPath><Private>false</Private></Reference>
-  <Reference Include="UnityEngine.AssetBundleModule"><HintPath>E:\SPT 4.1.6\EscapeFromTarkov_Data\Managed\UnityEngine.AssetBundleModule.dll</HintPath><Private>false</Private></Reference>
-  <Reference Include="Comfort"><HintPath>E:\SPT 4.1.6\EscapeFromTarkov_Data\Managed\Comfort.dll</HintPath><Private>false</Private></Reference>
- <Reference Include="UnityEngine.ParticleSystemModule"><HintPath>E:\SPT 4.1.6\EscapeFromTarkov_Data\Managed\UnityEngine.ParticleSystemModule.dll</HintPath><Private>false</Private></Reference><Reference Include="ItemComponent.Types"><HintPath>E:/SPT 4.1.6/EscapeFromTarkov_Data/Managed/ItemComponent.Types.dll</HintPath><Private>false</Private></Reference><Reference Include="AnimationSystem.Types"><HintPath>E:\SPT 4.1.6\EscapeFromTarkov_Data\Managed\AnimationSystem.Types.dll</HintPath><Private>false</Private></Reference><Reference Include="UnityEngine.IMGUIModule"><HintPath>E:/SPT 4.1.6/EscapeFromTarkov_Data/Managed/UnityEngine.IMGUIModule.dll</HintPath><Private>false</Private></Reference>
- <Reference Include="UnityEngine.InputLegacyModule"><HintPath>E:/SPT 4.1.6/EscapeFromTarkov_Data/Managed/UnityEngine.InputLegacyModule.dll</HintPath><Private>false</Private></Reference>
- <Reference Include="Newtonsoft.Json"><HintPath>E:/SPT 4.1.6/EscapeFromTarkov_Data/Managed/Newtonsoft.Json.dll</HintPath><Private>false</Private></Reference><Reference Include="UnityEngine.PhysicsModule"><HintPath>E:/SPT 4.1.6/EscapeFromTarkov_Data/Managed/UnityEngine.PhysicsModule.dll</HintPath><Private>false</Private></Reference></ItemGroup>
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework><LangVersion>latest</LangVersion><AssemblyName>Hawks.TheJudge.Client</AssemblyName>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EFT">
+      <HintPath>E:\SPT 4.1.6\EscapeFromTarkov_Data\Managed\Assembly-CSharp.dll</HintPath><Private>false</Private>
+    </Reference>
+    <Reference Include="BepInEx">
+      <HintPath>E:\SPT 4.1.6\BepInEx\core\BepInEx.dll</HintPath><Private>false</Private>
+    </Reference>
+    <Reference Include="0Harmony">
+      <HintPath>E:\SPT 4.1.6\BepInEx\core\0Harmony.dll</HintPath><Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>E:\SPT 4.1.6\EscapeFromTarkov_Data\Managed\UnityEngine.dll</HintPath><Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>E:\SPT 4.1.6\EscapeFromTarkov_Data\Managed\UnityEngine.CoreModule.dll</HintPath><Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>E:\SPT 4.1.6\EscapeFromTarkov_Data\Managed\UnityEngine.AnimationModule.dll</HintPath><Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>E:\SPT 4.1.6\EscapeFromTarkov_Data\Managed\UnityEngine.AssetBundleModule.dll</HintPath><Private>false</Private>
+    </Reference>
+    <Reference Include="Comfort">
+      <HintPath>E:\SPT 4.1.6\EscapeFromTarkov_Data\Managed\Comfort.dll</HintPath><Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>E:\SPT 4.1.6\EscapeFromTarkov_Data\Managed\UnityEngine.ParticleSystemModule.dll</HintPath><Private>false</Private>
+    </Reference><Reference Include="ItemComponent.Types">
+      <HintPath>E:/SPT 4.1.6/EscapeFromTarkov_Data/Managed/ItemComponent.Types.dll</HintPath><Private>false</Private>
+    </Reference><Reference Include="AnimationSystem.Types">
+      <HintPath>E:\SPT 4.1.6\EscapeFromTarkov_Data\Managed\AnimationSystem.Types.dll</HintPath><Private>false</Private>
+    </Reference><Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>E:/SPT 4.1.6/EscapeFromTarkov_Data/Managed/UnityEngine.IMGUIModule.dll</HintPath><Private>false</Private>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>E:/SPT 4.1.6/EscapeFromTarkov_Data/Managed/UnityEngine.InputLegacyModule.dll</HintPath><Private>false</Private>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>E:/SPT 4.1.6/EscapeFromTarkov_Data/Managed/Newtonsoft.Json.dll</HintPath><Private>false</Private>
+    </Reference><Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>E:/SPT 4.1.6/EscapeFromTarkov_Data/Managed/UnityEngine.PhysicsModule.dll</HintPath><Private>false</Private>
+    </Reference>
+  </ItemGroup>
 </Project>
-
-
-
-

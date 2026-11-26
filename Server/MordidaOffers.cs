@@ -4,12 +4,15 @@ using SPTarkov.Server.Core.Models.Eft.Common.Tables;
 using SPTarkov.Server.Core.Models.Spt.Config;
 using SPTarkov.Server.Core.Models.Spt.Tables;
 
-
 namespace Hawks.TheJudge;
 
 [Injectable(TypePriority = OnLoadOrder.Preload + 3)]
-public sealed class MordidaOffers(TemplateTable templates, GlobalTable globals, TradersTable traders,
-    TraderConfig traderConfig) : IOnLoad
+public sealed class MordidaOffers(
+    TemplateTable templates,
+    GlobalTable globals,
+    TradersTable traders,
+    TraderConfig traderConfig
+) : IOnLoad
 {
     const string Weapon = "ef9590b6d87a406b078ba926";
     const string Barrel = "d7dff6e35b6946ecae83ebca";
@@ -27,12 +30,27 @@ public sealed class MordidaOffers(TemplateTable templates, GlobalTable globals, 
         if (!assort.Items.Any(item => item.Id == offer))
         {
             var preset = globals.ItemPresets["79fd91493fe5d3d723e46202"];
-            assort.Items.Add(new Item { Id=offer, Template=Weapon, ParentId="hideout", SlotId="hideout",
-                Upd=new() { UnlimitedCount=true, StackObjectsCount=999999 } });
+            assort.Items.Add(
+                new Item
+                {
+                    Id = offer,
+                    Template = Weapon,
+                    ParentId = "hideout",
+                    SlotId = "hideout",
+                    Upd = new() { UnlimitedCount = true, StackObjectsCount = 999999 },
+                }
+            );
             int ordinal = 2;
             foreach (var child in preset.Items.Where(item => item.ParentId == preset.Parent))
-                assort.Items.Add(new Item { Id=$"c5f074b500000000000000{ordinal++:00}", Template=child.Template,
-                    ParentId=offer, SlotId=child.SlotId });
+                assort.Items.Add(
+                    new Item
+                    {
+                        Id = $"c5f074b500000000000000{ordinal++:00}",
+                        Template = child.Template,
+                        ParentId = offer,
+                        SlotId = child.SlotId,
+                    }
+                );
         }
         Price(offer, 54000);
         AddPart("c5f074b50000000000000011", Barrel, 3500);
@@ -40,20 +58,32 @@ public sealed class MordidaOffers(TemplateTable templates, GlobalTable globals, 
         // The serpent grip is part of the receiver. Its legacy template stays flea restricted.
         var fence = traderConfig.Fence.Blacklist;
         foreach (string id in new[] { Weapon, Barrel, Cylinder, Grip })
-            if (!fence.Contains(id)) fence.Add(id);
+            if (!fence.Contains(id))
+                fence.Add(id);
         return Task.CompletedTask;
 
         void Price(string id, int rubles)
         {
-            assort.BarterScheme[id] = [[new() { Template="5449016a4bdc2d6f028b456f", Count=rubles }]];
+            assort.BarterScheme[id] =
+            [
+                [new() { Template = "5449016a4bdc2d6f028b456f", Count = rubles }],
+            ];
             assort.LoyalLevelItems[id] = 4;
         }
         void AddPart(string id, string template, int rubles)
         {
             if (!assort.Items.Any(item => item.Id == id))
-                assort.Items.Add(new Item { Id=id, Template=template, ParentId="hideout", SlotId="hideout",
-                    Upd=new() { UnlimitedCount=true, StackObjectsCount=999999 } });
-            Price(id,rubles);
+                assort.Items.Add(
+                    new Item
+                    {
+                        Id = id,
+                        Template = template,
+                        ParentId = "hideout",
+                        SlotId = "hideout",
+                        Upd = new() { UnlimitedCount = true, StackObjectsCount = 999999 },
+                    }
+                );
+            Price(id, rubles);
         }
     }
 }
