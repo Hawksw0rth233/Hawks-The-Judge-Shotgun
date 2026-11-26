@@ -1,0 +1,217 @@
+{
+  "manifest": [
+    {
+      "key": "hawks_judge_materials.bundle",
+      "dependencyKeys": []
+    },
+    {
+      "key": "hawks_judge_weapon.bundle",
+      "dependencyKeys": [
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "assets/content/audio/banks/ash12.bundle",
+        "assets/content/audio/blendoptions/assets.bundle",
+        "assets/content/audio/weapons/ak74.bundle",
+        "assets/content/audio/weapons/generic",
+        "assets/content/audio/weapons/pm.bundle",
+        "assets/content/weapons/additional_hands/client_assets.bundle",
+        "assets/content/weapons/animations/simple_animations.bundle",
+        "assets/content/weapons/animations/spirit_animations.bundle",
+        "assets/content/weapons/rhino/client_assets.bundle",
+        "assets/content/weapons/rhino/textures/client_assets.bundle",
+        "assets/content/weapons/rsh12/client_assets.bundle",
+        "assets/content/weapons/wip/kibas tuning prefabs/muzzlejets_templates/default_assets.bundle",
+        "assets/systems/effects/heathaze/defaultheathaze.bundle",
+        "assets/systems/effects/muzzleflash/muzzleflash.bundle",
+        "assets/systems/effects/smoke.bundle",
+        "cubemaps",
+        "shaders",
+        "hawks_judge_materials.bundle",
+        "hawks_judge_actions.bundle",
+        "assets/content/audio/banks/mr153.bundle"
+      ]
+    },
+    {
+      "key": "hawks_judge_foregrip_material.bundle",
+      "dependencyKeys": []
+    },
+    {
+      "key": "hawks_judge_barrel_extended.bundle",
+      "dependencyKeys": [
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "cubemaps",
+        "shaders",
+        "hawks_judge_materials.bundle",
+        "hawks_judge_foregrip_material.bundle"
+      ]
+    },
+    {
+      "key": "hawks_judge_barrel_long.bundle",
+      "dependencyKeys": [
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "cubemaps",
+        "shaders",
+        "hawks_judge_materials.bundle"
+      ]
+    },
+    {
+      "key": "hawks_judge_barrel_medium.bundle",
+      "dependencyKeys": [
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "cubemaps",
+        "shaders",
+        "hawks_judge_materials.bundle"
+      ]
+    },
+    {
+      "key": "hawks_judge_barrel_standard.bundle",
+      "dependencyKeys": [
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "cubemaps",
+        "shaders",
+        "hawks_judge_materials.bundle"
+      ]
+    },
+    {
+      "key": "hawks_judge_frontsight_standard.bundle",
+      "dependencyKeys": [
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "cubemaps",
+        "shaders",
+        "hawks_judge_materials.bundle"
+      ]
+    },
+    {
+      "key": "hawks_judge_grip_standard.bundle",
+      "dependencyKeys": [
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "cubemaps",
+        "shaders",
+        "hawks_judge_materials.bundle"
+      ]
+    },
+    {
+      "key": "hawks_judge_grip_tac.bundle",
+      "dependencyKeys": [
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "cubemaps",
+        "shaders",
+        "hawks_judge_materials.bundle"
+      ]
+    },
+    {
+      "key": "hawks_judge_grip_wood_01.bundle",
+      "dependencyKeys": [
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "cubemaps",
+        "shaders",
+        "hawks_judge_materials.bundle"
+      ]
+    },
+    {
+      "key": "hawks_judge_grip_wood_02.bundle",
+      "dependencyKeys": [
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "cubemaps",
+        "shaders",
+        "hawks_judge_materials.bundle"
+      ]
+    },
+    {
+      "key": "hawks_judge_mag_standard.bundle",
+      "dependencyKeys": [
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "cubemaps",
+        "shaders",
+        "hawks_judge_materials.bundle"
+      ]
+    },
+    {
+      "key": "hawks_judge_rearsight_standard.bundle",
+      "dependencyKeys": [
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "cubemaps",
+        "shaders",
+        "hawks_judge_materials.bundle"
+      ]
+    },
+    {
+      "key": "hawks_judge_sightmount_standard.bundle",
+      "dependencyKeys": [
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "cubemaps",
+        "shaders",
+        "hawks_judge_materials.bundle"
+      ]
+    },
+    {
+      "key": "hawks_judge_rapido_materials.bundle",
+      "dependencyKeys": []
+    },
+    {
+      "key": "hawks_judge_barrel_rapido.bundle",
+      "dependencyKeys": [
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "cubemaps",
+        "shaders",
+        "hawks_judge_rapido_materials.bundle"
+      ]
+    },
+    {
+      "key": "hawks_judge_grip_rapido.bundle",
+      "dependencyKeys": [
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "cubemaps",
+        "shaders",
+        "hawks_judge_rapido_materials.bundle"
+      ]
+    },
+    {
+      "key": "hawks_judge_mag_rapido.bundle",
+      "dependencyKeys": [
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "cubemaps",
+        "shaders",
+        "hawks_judge_rapido_materials.bundle"
+      ]
+    },
+    {
+      "key": "hawks_judge_actions.bundle",
+      "dependencyKeys": []
+    },
+    {
+      "key": "hawks_judge_barrel_payday.bundle",
+      "dependencyKeys": [
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "cubemaps",
+        "shaders",
+        "hawks_judge_materials.bundle"
+      ]
+    },
+    {
+      "key": "hawks_judge_weapon_rapido.bundle",
+      "dependencyKeys": [
+        "assets/commonassets/physics/physicsmaterials.bundle",
+        "assets/content/audio/banks/ash12.bundle",
+        "assets/content/audio/blendoptions/assets.bundle",
+        "assets/content/audio/weapons/ak74.bundle",
+        "assets/content/audio/weapons/generic",
+        "assets/content/audio/weapons/pm.bundle",
+        "assets/content/weapons/additional_hands/client_assets.bundle",
+        "assets/content/weapons/animations/simple_animations.bundle",
+        "assets/content/weapons/animations/spirit_animations.bundle",
+        "assets/content/weapons/rhino/client_assets.bundle",
+        "assets/content/weapons/rhino/textures/client_assets.bundle",
+        "assets/content/weapons/rsh12/client_assets.bundle",
+        "assets/content/weapons/wip/kibas tuning prefabs/muzzlejets_templates/default_assets.bundle",
+        "assets/systems/effects/heathaze/defaultheathaze.bundle",
+        "assets/systems/effects/muzzleflash/muzzleflash.bundle",
+        "assets/systems/effects/smoke.bundle",
+        "cubemaps",
+        "shaders",
+        "hawks_judge_rapido_materials.bundle",
+        "hawks_judge_actions.bundle",
+        "assets/content/audio/banks/mr153.bundle"
+      ]
+    }
+  ]
+}

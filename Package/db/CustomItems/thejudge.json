@@ -1,0 +1,1467 @@
+{
+  "fac0d265ec36a83fa89e5ed8": {
+    "itemTplToClone": "633ec7c2a6918cb895019c6c",
+    "parentId": "617f1ef5e8b54b0998387733",
+    "handbookParentId": "5b5f792486f77447ed5636b3",
+    "handbookPriceRoubles": 54000,
+    "fleaPriceRoubles": 54000,
+    "addtoTraders": false,
+    "locales": {
+      "en": {
+        "name": "\"The Judge\" .410 revolver",
+        "shortName": "The Judge",
+        "description": "A classic revolving shotgun. Its devastating damage at close range, barely controllable recoil and surprisingly effective gas seal make quite an impression. For some reason, a crew of criminals from Washington, D.C. who wear clown masks are particularly fond of it."
+      },
+      "ch": {
+        "name": "“判官” .410 左轮霰弹枪",
+        "shortName": "判官",
+        "description": "一把经典的转轮霰弹枪。近距离下极高的伤害，几乎无法控制的后坐力与意外地出色的气密性使它令人印象深刻。不知为何，这把枪十分受到一伙来自华盛顿的面具小丑犯罪组织青睐。"
+      },
+      "ja": {
+        "name": "「ジャッジ」 .410 リボルバーショットガン",
+        "shortName": "ジャッジ",
+        "description": "古典的なリボルバーショットガン。至近距離での凄まじい威力、制御しきれないほどの反動、そして意外なほど優れた気密性が強烈な印象を残す。なぜか、ワシントンD.C.を拠点に道化師の仮面をかぶって活動する犯罪グループが、この銃をいたく気に入っている。"
+      }
+    },
+    "overrideProperties": {
+      "Prefab": {
+        "path": "hawks_judge_weapon.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true,
+      "CanSellOnRagfair": true,
+      "Slots": [
+        {
+          "_id": "149d5cfa19a71836dcf4a7fd",
+          "_parent": "fac0d265ec36a83fa89e5ed8",
+          "_name": "mod_magazine",
+          "_required": true,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c394bdc2dae468b4577",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "884d08cfe5a118a9a8692a7a",
+                  "c85727fdf51091253a7d427e"
+                ],
+                "AnimationIndex": 0
+              }
+            ]
+          }
+        },
+        {
+          "_id": "9237c4509c7f508c739899ef",
+          "_parent": "fac0d265ec36a83fa89e5ed8",
+          "_name": "mod_pistol_grip",
+          "_required": true,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c394bdc2dae468b4577",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "03855a6fd3403e686e8ec746",
+                  "da5359d72bc86f4ab1c955f9",
+                  "5757101b0ae09d45948c3442",
+                  "aea059b8c300eaa8dd34931d"
+                ],
+                "AnimationIndex": 0
+              }
+            ]
+          }
+        },
+        {
+          "_id": "ee48e0d5a79ed26b7839e106",
+          "_parent": "fac0d265ec36a83fa89e5ed8",
+          "_name": "mod_barrel",
+          "_required": true,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c394bdc2dae468b4577",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "78f739cade5b42d0cc151522",
+                  "760074881b4700d6d069ad39",
+                  "8a9bfdee11ef076e83a0abff",
+                  "5661f8dea523d82ff2760514",
+                  "d7dff6e35b6946ecae83ebca",
+                  "149afeb78f2eda6a0e8cc0f7"
+                ],
+                "AnimationIndex": 0
+              }
+            ]
+          }
+        }
+      ],
+      "ammoCaliber": "Caliber410g",
+      "defAmmo": "3ed19bd544854f098ce5c2bb",
+      "defMagType": "884d08cfe5a118a9a8692a7a",
+      "weapClass": "shotgun",
+      "Width": 2,
+      "Height": 1,
+      "Ergonomics": 80,
+      "weapFireType": [
+        "doubleaction"
+      ],
+      "bFirerate": 300,
+      "SingleFireRate": 300,
+      "DoubleActionAccuracyPenalty": 0
+    },
+    "addtoInventorySlots": [
+      "Holster"
+    ]
+  },
+  "884d08cfe5a118a9a8692a7a": {
+    "itemTplToClone": "633ec6ee025b096d320a3b15",
+    "parentId": "610720f290b75a49ff2e5e25",
+    "handbookParentId": "5b5f754a86f774094242f19b",
+    "handbookPriceRoubles": 6300,
+    "fleaPriceRoubles": 6300,
+    "addtoTraders": false,
+    "locales": {
+      "en": {
+        "name": "The Judge five-shot cylinder",
+        "shortName": "Judge Cyl.",
+        "description": "A five-chamber .410 cylinder in the The Judge pattern."
+      },
+      "ch": {
+        "name": "The Judge 五发转轮",
+        "shortName": "Judge 弹巢",
+        "description": "The Judge 样式的五膛 .410 弹巢。"
+      },
+      "ja": {
+        "name": "The Judge 5連シリンダー",
+        "shortName": "Judge シリンダー",
+        "description": "The Judge 仕様の5連 .410 シリンダー。"
+      }
+    },
+    "overrideProperties": {
+      "Prefab": {
+        "path": "hawks_judge_mag_standard.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true,
+      "CanSellOnRagfair": true,
+      "Slots": [
+        {
+          "_id": "ca618a34aa5922708c03ea57",
+          "_mergeSlotWithChildren": false,
+          "_name": "camora_000",
+          "_parent": "884d08cfe5a118a9a8692a7a",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "3ed19bd544854f098ce5c2bb",
+                  "36d2e4ec1ac64ab19d477d5b",
+                  "6aea74e19d394c03816fd104",
+                  "ccec315b9227caf97592e926",
+                  "225fd87e0b4eadfdee2697b2",
+                  "85a2114be976cd2e1cf0ebe7"
+                ],
+                "MaxStackCount": 1
+              }
+            ]
+          },
+          "_proto": "55d4af244bdc2d962f8b4571",
+          "_required": false
+        },
+        {
+          "_id": "a56e132955eb799696477379",
+          "_mergeSlotWithChildren": false,
+          "_name": "camora_001",
+          "_parent": "884d08cfe5a118a9a8692a7a",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "3ed19bd544854f098ce5c2bb",
+                  "36d2e4ec1ac64ab19d477d5b",
+                  "6aea74e19d394c03816fd104",
+                  "ccec315b9227caf97592e926",
+                  "225fd87e0b4eadfdee2697b2",
+                  "85a2114be976cd2e1cf0ebe7"
+                ],
+                "MaxStackCount": 1
+              }
+            ]
+          },
+          "_proto": "55d4af244bdc2d962f8b4571",
+          "_required": false
+        },
+        {
+          "_id": "a0765f6d9876909f46dea469",
+          "_mergeSlotWithChildren": false,
+          "_name": "camora_002",
+          "_parent": "884d08cfe5a118a9a8692a7a",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "3ed19bd544854f098ce5c2bb",
+                  "36d2e4ec1ac64ab19d477d5b",
+                  "6aea74e19d394c03816fd104",
+                  "ccec315b9227caf97592e926",
+                  "225fd87e0b4eadfdee2697b2",
+                  "85a2114be976cd2e1cf0ebe7"
+                ],
+                "MaxStackCount": 1
+              }
+            ]
+          },
+          "_proto": "55d4af244bdc2d962f8b4571",
+          "_required": false
+        },
+        {
+          "_id": "87f5729b0338b57673a17c84",
+          "_mergeSlotWithChildren": false,
+          "_name": "camora_003",
+          "_parent": "884d08cfe5a118a9a8692a7a",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "3ed19bd544854f098ce5c2bb",
+                  "36d2e4ec1ac64ab19d477d5b",
+                  "6aea74e19d394c03816fd104",
+                  "ccec315b9227caf97592e926",
+                  "225fd87e0b4eadfdee2697b2",
+                  "85a2114be976cd2e1cf0ebe7"
+                ],
+                "MaxStackCount": 1
+              }
+            ]
+          },
+          "_proto": "55d4af244bdc2d962f8b4571",
+          "_required": false
+        },
+        {
+          "_id": "6327b0ffd34aaba61928997f",
+          "_mergeSlotWithChildren": false,
+          "_name": "camora_004",
+          "_parent": "884d08cfe5a118a9a8692a7a",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "3ed19bd544854f098ce5c2bb",
+                  "36d2e4ec1ac64ab19d477d5b",
+                  "6aea74e19d394c03816fd104",
+                  "ccec315b9227caf97592e926",
+                  "225fd87e0b4eadfdee2697b2",
+                  "85a2114be976cd2e1cf0ebe7"
+                ],
+                "MaxStackCount": 1
+              }
+            ]
+          },
+          "_proto": "55d4af244bdc2d962f8b4571",
+          "_required": false
+        }
+      ],
+      "Cartridges": [
+        {
+          "_id": "588d05633ddcba8e9ae4c582",
+          "_max_count": 5,
+          "_name": "cartridges",
+          "_parent": "884d08cfe5a118a9a8692a7a",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "3ed19bd544854f098ce5c2bb",
+                  "36d2e4ec1ac64ab19d477d5b",
+                  "6aea74e19d394c03816fd104",
+                  "ccec315b9227caf97592e926",
+                  "225fd87e0b4eadfdee2697b2",
+                  "85a2114be976cd2e1cf0ebe7"
+                ]
+              }
+            ]
+          },
+          "_proto": "5748538b2459770af276a261"
+        }
+      ]
+    }
+  },
+  "78f739cade5b42d0cc151522": {
+    "itemTplToClone": "55d4491a4bdc2d882f8b456e",
+    "parentId": "555ef6e44bdc2de9068b457e",
+    "handbookParentId": "5b5f75c686f774094242f19f",
+    "handbookPriceRoubles": 3500,
+    "fleaPriceRoubles": 3500,
+    "addtoTraders": false,
+    "locales": {
+      "en": {
+        "name": "The Judge Extended barrel",
+        "shortName": "Judge Extended",
+        "description": "The extended Judge barrel accepts separate iron sights and an optic rail."
+      },
+      "ch": {
+        "name": "The Judge Extended 枪管",
+        "shortName": "Judge Extended",
+        "description": "Judge 的 Extended 枪管，可单独安装机械瞄具和瞄具导轨。"
+      },
+      "ja": {
+        "name": "The Judge Extended バレル",
+        "shortName": "Judge Extended",
+        "description": "アイアンサイトと光学照準器用レールを個別に取り付けられる Judge の Extended バレル。"
+      }
+    },
+    "overrideProperties": {
+      "Prefab": {
+        "path": "hawks_judge_barrel_extended.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true,
+      "CanSellOnRagfair": true,
+      "Slots": [
+        {
+          "_id": "768baacd89261b67bfdc26ae",
+          "_parent": "78f739cade5b42d0cc151522",
+          "_name": "mod_sight_front",
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c394bdc2dae468b4577",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "843c5ef82279b410bd43cefa"
+                ],
+                "AnimationIndex": 0
+              }
+            ]
+          }
+        },
+        {
+          "_id": "42232ec6a647204ebdecfef8",
+          "_parent": "78f739cade5b42d0cc151522",
+          "_name": "mod_sight_rear",
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c394bdc2dae468b4577",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "396aa8e4ea6fecee9018a5cb"
+                ],
+                "AnimationIndex": 0
+              }
+            ]
+          }
+        },
+        {
+          "_id": "3dae2178b81f4af2f9865feb",
+          "_parent": "78f739cade5b42d0cc151522",
+          "_name": "mod_mount",
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c394bdc2dae468b4577",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "d812a73fab9d2b3f1478a8b4"
+                ],
+                "AnimationIndex": 0
+              }
+            ]
+          }
+        }
+      ],
+      "CenterOfImpact": 0.11628328,
+      "Recoil": -51.25,
+      "Ergonomics": -8,
+      "Velocity": 9.4,
+      "Weight": 0.832,
+      "Accuracy": 0,
+      "ExtraSizeLeft": 1,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false
+    }
+  },
+  "760074881b4700d6d069ad39": {
+    "itemTplToClone": "55d4491a4bdc2d882f8b456e",
+    "parentId": "555ef6e44bdc2de9068b457e",
+    "handbookParentId": "5b5f75c686f774094242f19f",
+    "handbookPriceRoubles": 3500,
+    "fleaPriceRoubles": 3500,
+    "addtoTraders": false,
+    "locales": {
+      "en": {
+        "name": "The Judge Long barrel",
+        "shortName": "Judge Long",
+        "description": "The long Judge barrel accepts separate iron sights and an optic rail."
+      },
+      "ch": {
+        "name": "The Judge Long 枪管",
+        "shortName": "Judge Long",
+        "description": "Judge 的 Long 枪管，可单独安装机械瞄具和瞄具导轨。"
+      },
+      "ja": {
+        "name": "The Judge Long バレル",
+        "shortName": "Judge Long",
+        "description": "アイアンサイトと光学照準器用レールを個別に取り付けられる Judge の Long バレル。"
+      }
+    },
+    "overrideProperties": {
+      "Prefab": {
+        "path": "hawks_judge_barrel_long.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true,
+      "CanSellOnRagfair": true,
+      "Slots": [
+        {
+          "_id": "28b474a610a747a2dfa8cb10",
+          "_parent": "760074881b4700d6d069ad39",
+          "_name": "mod_sight_front",
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c394bdc2dae468b4577",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "843c5ef82279b410bd43cefa"
+                ],
+                "AnimationIndex": 0
+              }
+            ]
+          }
+        },
+        {
+          "_id": "a37d68bd3734196858148592",
+          "_parent": "760074881b4700d6d069ad39",
+          "_name": "mod_sight_rear",
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c394bdc2dae468b4577",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "396aa8e4ea6fecee9018a5cb"
+                ],
+                "AnimationIndex": 0
+              }
+            ]
+          }
+        },
+        {
+          "_id": "7f1c35538688cb9074651419",
+          "_parent": "760074881b4700d6d069ad39",
+          "_name": "mod_mount",
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c394bdc2dae468b4577",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "d812a73fab9d2b3f1478a8b4"
+                ],
+                "AnimationIndex": 0
+              }
+            ]
+          }
+        }
+      ],
+      "CenterOfImpact": 0.15817144,
+      "Recoil": -42.80,
+      "Ergonomics": -4,
+      "Velocity": 7.9,
+      "Weight": 0.82,
+      "Accuracy": 0,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false
+    }
+  },
+  "8a9bfdee11ef076e83a0abff": {
+    "itemTplToClone": "55d4491a4bdc2d882f8b456e",
+    "parentId": "555ef6e44bdc2de9068b457e",
+    "handbookParentId": "5b5f75c686f774094242f19f",
+    "handbookPriceRoubles": 3500,
+    "fleaPriceRoubles": 3500,
+    "addtoTraders": false,
+    "locales": {
+      "en": {
+        "name": "The Judge Medium barrel",
+        "shortName": "Judge Medium",
+        "description": "The medium Judge barrel accepts separate iron sights and an optic rail."
+      },
+      "ch": {
+        "name": "The Judge Medium 枪管",
+        "shortName": "Judge Medium",
+        "description": "Judge 的 Medium 枪管，可单独安装机械瞄具和瞄具导轨。"
+      },
+      "ja": {
+        "name": "The Judge Medium バレル",
+        "shortName": "Judge Medium",
+        "description": "アイアンサイトと光学照準器用レールを個別に取り付けられる Judge の Medium バレル。"
+      }
+    },
+    "overrideProperties": {
+      "Prefab": {
+        "path": "hawks_judge_barrel_medium.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true,
+      "CanSellOnRagfair": true,
+      "Slots": [
+        {
+          "_id": "751cc3161e2dfd2b948e2595",
+          "_parent": "8a9bfdee11ef076e83a0abff",
+          "_name": "mod_sight_front",
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c394bdc2dae468b4577",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "843c5ef82279b410bd43cefa"
+                ],
+                "AnimationIndex": 0
+              }
+            ]
+          }
+        },
+        {
+          "_id": "56f94c8d49eea8f2742a7e89",
+          "_parent": "8a9bfdee11ef076e83a0abff",
+          "_name": "mod_sight_rear",
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c394bdc2dae468b4577",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "396aa8e4ea6fecee9018a5cb"
+                ],
+                "AnimationIndex": 0
+              }
+            ]
+          }
+        },
+        {
+          "_id": "f61df88421a21e140cb60565",
+          "_parent": "8a9bfdee11ef076e83a0abff",
+          "_name": "mod_mount",
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c394bdc2dae468b4577",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "d812a73fab9d2b3f1478a8b4"
+                ],
+                "AnimationIndex": 0
+              }
+            ]
+          }
+        }
+      ],
+      "CenterOfImpact": 0.17627934,
+      "Recoil": -38.25,
+      "Ergonomics": -2,
+      "Velocity": 6.4,
+      "Weight": 0.808,
+      "Accuracy": 0,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false
+    }
+  },
+  "5661f8dea523d82ff2760514": {
+    "itemTplToClone": "55d4491a4bdc2d882f8b456e",
+    "parentId": "555ef6e44bdc2de9068b457e",
+    "handbookParentId": "5b5f75c686f774094242f19f",
+    "handbookPriceRoubles": 3500,
+    "fleaPriceRoubles": 3500,
+    "addtoTraders": false,
+    "locales": {
+      "en": {
+        "name": "The Judge Standard barrel",
+        "shortName": "Judge Standard",
+        "description": "The standard Judge barrel accepts separate iron sights and an optic rail."
+      },
+      "ch": {
+        "name": "The Judge Standard 枪管",
+        "shortName": "Judge Standard",
+        "description": "Judge 的 Standard 枪管，可单独安装机械瞄具和瞄具导轨。"
+      },
+      "ja": {
+        "name": "The Judge Standard バレル",
+        "shortName": "Judge Standard",
+        "description": "アイアンサイトと光学照準器用レールを個別に取り付けられる Judge の Standard バレル。"
+      }
+    },
+    "overrideProperties": {
+      "Prefab": {
+        "path": "hawks_judge_barrel_standard.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true,
+      "CanSellOnRagfair": true,
+      "Slots": [
+        {
+          "_id": "8bfece3c187a1b4707132f8c",
+          "_parent": "5661f8dea523d82ff2760514",
+          "_name": "mod_sight_front",
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c394bdc2dae468b4577",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "843c5ef82279b410bd43cefa"
+                ],
+                "AnimationIndex": 0
+              }
+            ]
+          }
+        },
+        {
+          "_id": "70912a75cb4492056df71529",
+          "_parent": "5661f8dea523d82ff2760514",
+          "_name": "mod_sight_rear",
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c394bdc2dae468b4577",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "396aa8e4ea6fecee9018a5cb"
+                ],
+                "AnimationIndex": 0
+              }
+            ]
+          }
+        },
+        {
+          "_id": "48b4f90062e514323b34aa8d",
+          "_parent": "5661f8dea523d82ff2760514",
+          "_name": "mod_mount",
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c394bdc2dae468b4577",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "d812a73fab9d2b3f1478a8b4"
+                ],
+                "AnimationIndex": 0
+              }
+            ]
+          }
+        }
+      ],
+      "CenterOfImpact": 0.23278472,
+      "Recoil": -35.00,
+      "Ergonomics": 0,
+      "Velocity": 5.4,
+      "Weight": 0.8,
+      "Accuracy": 0,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false
+    }
+  },
+  "03855a6fd3403e686e8ec746": {
+    "itemTplToClone": "633ec8e4025b096d320a3b1e",
+    "parentId": "55818a684bdc2ddd698b456d",
+    "handbookParentId": "5b5f761f86f774094242f1a1",
+    "handbookPriceRoubles": 3500,
+    "fleaPriceRoubles": 3500,
+    "addtoTraders": false,
+    "locales": {
+      "en": {
+        "name": "The Judge Standard grip",
+        "shortName": "Judge Standard Grip",
+        "description": "The standard replacement grip for the Judge frame."
+      },
+      "ch": {
+        "name": "The Judge Standard 握把",
+        "shortName": "Judge Standard 握把",
+        "description": "适用于 Judge 枪身的 Standard 替换握把。"
+      },
+      "ja": {
+        "name": "The Judge Standard グリップ",
+        "shortName": "Judge Standard グリップ",
+        "description": "Judge のフレームに装着する Standard 交換用グリップ。"
+      }
+    },
+    "overrideProperties": {
+      "Prefab": {
+        "path": "hawks_judge_grip_standard.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true,
+      "CanSellOnRagfair": true,
+      "Slots": [],
+      "Ergonomics": 5
+    }
+  },
+  "da5359d72bc86f4ab1c955f9": {
+    "itemTplToClone": "633ec8e4025b096d320a3b1e",
+    "parentId": "55818a684bdc2ddd698b456d",
+    "handbookParentId": "5b5f761f86f774094242f1a1",
+    "handbookPriceRoubles": 3500,
+    "fleaPriceRoubles": 3500,
+    "addtoTraders": false,
+    "locales": {
+      "en": {
+        "name": "The Judge Tac grip",
+        "shortName": "Judge Tac Grip",
+        "description": "The tac replacement grip for the Judge frame."
+      },
+      "ch": {
+        "name": "The Judge Tac 握把",
+        "shortName": "Judge Tac 握把",
+        "description": "适用于 Judge 枪身的 Tac 替换握把。"
+      },
+      "ja": {
+        "name": "The Judge Tac グリップ",
+        "shortName": "Judge Tac グリップ",
+        "description": "Judge のフレームに装着する Tac 交換用グリップ。"
+      }
+    },
+    "overrideProperties": {
+      "Prefab": {
+        "path": "hawks_judge_grip_tac.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true,
+      "CanSellOnRagfair": true,
+      "Slots": [],
+      "Ergonomics": 7
+    }
+  },
+  "5757101b0ae09d45948c3442": {
+    "itemTplToClone": "633ec8e4025b096d320a3b1e",
+    "parentId": "55818a684bdc2ddd698b456d",
+    "handbookParentId": "5b5f761f86f774094242f1a1",
+    "handbookPriceRoubles": 3500,
+    "fleaPriceRoubles": 3500,
+    "addtoTraders": false,
+    "locales": {
+      "en": {
+        "name": "The Judge Wood 01 grip",
+        "shortName": "Judge Wood 01 Grip",
+        "description": "The wood 01 replacement grip for the Judge frame."
+      },
+      "ch": {
+        "name": "The Judge Wood 01 握把",
+        "shortName": "Judge Wood 01 握把",
+        "description": "适用于 Judge 枪身的 Wood 01 替换握把。"
+      },
+      "ja": {
+        "name": "The Judge Wood 01 グリップ",
+        "shortName": "Judge Wood 01 グリップ",
+        "description": "Judge のフレームに装着する Wood 01 交換用グリップ。"
+      }
+    },
+    "overrideProperties": {
+      "Prefab": {
+        "path": "hawks_judge_grip_wood_01.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true,
+      "CanSellOnRagfair": true,
+      "Slots": [],
+      "Ergonomics": 6
+    }
+  },
+  "aea059b8c300eaa8dd34931d": {
+    "itemTplToClone": "633ec8e4025b096d320a3b1e",
+    "parentId": "55818a684bdc2ddd698b456d",
+    "handbookParentId": "5b5f761f86f774094242f1a1",
+    "handbookPriceRoubles": 3500,
+    "fleaPriceRoubles": 3500,
+    "addtoTraders": false,
+    "locales": {
+      "en": {
+        "name": "The Judge Wood 02 grip",
+        "shortName": "Judge Wood 02 Grip",
+        "description": "The wood 02 replacement grip for the Judge frame."
+      },
+      "ch": {
+        "name": "The Judge Wood 02 握把",
+        "shortName": "Judge Wood 02 握把",
+        "description": "适用于 Judge 枪身的 Wood 02 替换握把。"
+      },
+      "ja": {
+        "name": "The Judge Wood 02 グリップ",
+        "shortName": "Judge Wood 02 グリップ",
+        "description": "Judge のフレームに装着する Wood 02 交換用グリップ。"
+      }
+    },
+    "overrideProperties": {
+      "Prefab": {
+        "path": "hawks_judge_grip_wood_02.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true,
+      "CanSellOnRagfair": true,
+      "Slots": [],
+      "Ergonomics": 6
+    }
+  },
+  "843c5ef82279b410bd43cefa": {
+    "itemTplToClone": "5ba26b01d4351e0085325a51",
+    "parentId": "55818ac54bdc2d5b648b456e",
+    "handbookParentId": "5b5f746686f77447ec5d7708",
+    "handbookPriceRoubles": 3500,
+    "fleaPriceRoubles": 3500,
+    "addtoTraders": false,
+    "locales": {
+      "en": {
+        "name": "The Judge front sight",
+        "shortName": "Judge FS",
+        "description": "A front sight for the modular Judge barrels."
+      },
+      "ch": {
+        "name": "The Judge 准星",
+        "shortName": "Judge 准星",
+        "description": "适用于 Judge 模块化枪管的准星。"
+      },
+      "ja": {
+        "name": "The Judge フロントサイト",
+        "shortName": "Judge フロント",
+        "description": "Judge のモジュラーバレル用フロントサイト。"
+      }
+    },
+    "overrideProperties": {
+      "Prefab": {
+        "path": "hawks_judge_frontsight_standard.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true,
+      "CanSellOnRagfair": true,
+      "Slots": []
+    }
+  },
+  "396aa8e4ea6fecee9018a5cb": {
+    "itemTplToClone": "56083e1b4bdc2dc8488b4572",
+    "parentId": "55818ac54bdc2d5b648b456e",
+    "handbookParentId": "5b5f746686f77447ec5d7708",
+    "handbookPriceRoubles": 3500,
+    "fleaPriceRoubles": 3500,
+    "addtoTraders": false,
+    "locales": {
+      "en": {
+        "name": "The Judge rear sight",
+        "shortName": "Judge RS",
+        "description": "A rear sight mounted on the Judge barrel assembly."
+      },
+      "ch": {
+        "name": "The Judge 照门",
+        "shortName": "Judge 照门",
+        "description": "安装在 Judge 枪管总成上的照门。"
+      },
+      "ja": {
+        "name": "The Judge リアサイト",
+        "shortName": "Judge リア",
+        "description": "Judge のバレルアセンブリに取り付けるリアサイト。"
+      }
+    },
+    "overrideProperties": {
+      "Prefab": {
+        "path": "hawks_judge_rearsight_standard.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true,
+      "CanSellOnRagfair": true,
+      "Slots": []
+    }
+  },
+  "d812a73fab9d2b3f1478a8b4": {
+    "itemTplToClone": "609b9e31506cf869cf3eaf41",
+    "parentId": "55818ad54bdc2ddc698b4569",
+    "handbookParentId": "5b5f742686f774093e6cb4ff",
+    "handbookPriceRoubles": 3500,
+    "fleaPriceRoubles": 3500,
+    "addtoTraders": false,
+    "locales": {
+      "en": {
+        "name": "The Judge sight mount",
+        "shortName": "Judge Rail",
+        "description": "A rail for mounting compatible pistol optics on the Judge."
+      },
+      "ch": {
+        "name": "The Judge 瞄具座",
+        "shortName": "Judge 导轨",
+        "description": "可为 Judge 安装兼容手枪瞄具的导轨。"
+      },
+      "ja": {
+        "name": "The Judge マウント",
+        "shortName": "Judge レール",
+        "description": "対応するピストル用光学照準器を Judge に取り付けるレール。"
+      }
+    },
+    "overrideProperties": {
+      "Prefab": {
+        "path": "hawks_judge_sightmount_standard.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true,
+      "CanSellOnRagfair": true,
+      "Slots": [
+        {
+          "_id": "65d9eea3a2c3e024ad9270d0",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_scope",
+          "_parent": "d812a73fab9d2b3f1478a8b4",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "57ae0171245977343c27bfcf",
+                  "58d39d3d86f77445bb794ae7",
+                  "616554fe50224f204c1da2aa",
+                  "615d8d878004cc50514c3233",
+                  "577d128124597739d65d0e56",
+                  "58d2664f86f7747fec5834f6",
+                  "5a33b652c4a28232996e407c",
+                  "5a33b2c9c4a282000c5a9511"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ],
+      "Ergonomics": -1
+    }
+  },
+  "ef9590b6d87a406b078ba926": {
+    "itemTplToClone": "633ec7c2a6918cb895019c6c",
+    "parentId": "617f1ef5e8b54b0998387733",
+    "handbookParentId": "5b5f792486f77447ed5636b3",
+    "handbookPriceRoubles": 54000,
+    "fleaPriceRoubles": 54000,
+    "addtoTraders": false,
+    "locales": {
+      "en": {
+        "name": "\"Mordida Venenosa\" .410 revolver",
+        "shortName": "Mordida Venenosa",
+        "description": "An ornately decorated revolving shotgun. Elaborate Latin American engravings cover the frame. A rattlesnake cast in solid gold coils around the custom grip, its jaws agape and its fangs gleaming with a cold, vicious light. Emeralds are set into its eyes. It is as much a collector’s piece as a firearm, if not more so."
+      },
+      "ch": {
+        "name": "“毒噬” .410 左轮霰弹枪",
+        "shortName": "毒噬",
+        "description": "一把拥有华丽装饰的转轮霰弹枪。机匣上附着着华丽的拉丁美洲风格雕纹，特制的握把上盘踞着一条纯金打造的、血口大张的响尾蛇，毒牙凶狠地闪耀着寒光，眼睛用镶嵌的祖母绿装饰。与其说是一把枪，不如说是一把精美的收藏品。"
+      },
+      "ja": {
+        "name": "「毒牙」 .410 リボルバーショットガン",
+        "shortName": "毒牙",
+        "description": "豪奢な装飾をまとったリボルバーショットガン。フレームにはラテンアメリカ風の華やかな彫刻が施され、特製グリップには純金のガラガラヘビがとぐろを巻いている。大きく開いた口からのぞく毒牙は冷たく獰猛な光を放ち、その両眼にはエメラルドがはめ込まれている。銃というより、むしろコレクションにふさわしい逸品だ。"
+      }
+    },
+    "overrideProperties": {
+      "Prefab": {
+        "path": "hawks_judge_weapon_rapido.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true,
+      "CanSellOnRagfair": true,
+      "Slots": [
+        {
+          "_id": "65cce4b46bdbeaa12878d604",
+          "_parent": "ef9590b6d87a406b078ba926",
+          "_name": "mod_barrel",
+          "_required": true,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c394bdc2dae468b4577",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "78f739cade5b42d0cc151522",
+                  "760074881b4700d6d069ad39",
+                  "8a9bfdee11ef076e83a0abff",
+                  "5661f8dea523d82ff2760514",
+                  "d7dff6e35b6946ecae83ebca",
+                  "149afeb78f2eda6a0e8cc0f7"
+                ],
+                "AnimationIndex": 0
+              }
+            ]
+          }
+        },
+        {
+          "_id": "bd4a548e8cd4eea2d5224378",
+          "_parent": "ef9590b6d87a406b078ba926",
+          "_name": "mod_magazine",
+          "_required": true,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c394bdc2dae468b4577",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "884d08cfe5a118a9a8692a7a",
+                  "c85727fdf51091253a7d427e"
+                ],
+                "AnimationIndex": 0
+              }
+            ]
+          }
+        }
+      ],
+      "ammoCaliber": "Caliber410g",
+      "defAmmo": "3ed19bd544854f098ce5c2bb",
+      "defMagType": "c85727fdf51091253a7d427e",
+      "weapClass": "shotgun",
+      "Width": 2,
+      "Height": 1,
+      "Ergonomics": 85,
+      "weapFireType": [
+        "doubleaction"
+      ],
+      "bFirerate": 300,
+      "SingleFireRate": 300,
+      "DoubleActionAccuracyPenalty": 0,
+      "Weight": 1.97,
+      "Recoil": 0
+    },
+    "addtoInventorySlots": [
+      "Holster"
+    ]
+  },
+  "d7dff6e35b6946ecae83ebca": {
+    "itemTplToClone": "55d4491a4bdc2d882f8b456e",
+    "parentId": "555ef6e44bdc2de9068b457e",
+    "handbookParentId": "5b5f75c686f774094242f19f",
+    "handbookPriceRoubles": 3500,
+    "fleaPriceRoubles": 3500,
+    "addtoTraders": false,
+    "locales": {
+      "en": {
+        "name": "Mordida Venenosa barrel",
+        "shortName": "Mordida Barrel",
+        "description": "The Mordida Venenosa barrel incorporates its own optic mounting surface."
+      },
+      "ch": {
+        "name": "Mordida Venenosa 枪管",
+        "shortName": "Mordida 枪管",
+        "description": "Mordida Venenosa 的枪管带有一体式瞄具安装位。"
+      },
+      "ja": {
+        "name": "Mordida Venenosa バレル",
+        "shortName": "Mordida バレル",
+        "description": "光学照準器用の取り付け部を一体化した Mordida Venenosa のバレル。"
+      }
+    },
+    "overrideProperties": {
+      "Prefab": {
+        "path": "hawks_judge_barrel_rapido.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true,
+      "CanSellOnRagfair": true,
+      "Slots": [
+        {
+          "_id": "7ba6fd625d8a7d087740081a",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_scope",
+          "_parent": "d7dff6e35b6946ecae83ebca",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "57ae0171245977343c27bfcf",
+                  "58d39d3d86f77445bb794ae7",
+                  "616554fe50224f204c1da2aa",
+                  "615d8d878004cc50514c3233",
+                  "577d128124597739d65d0e56",
+                  "58d2664f86f7747fec5834f6",
+                  "5a33b652c4a28232996e407c",
+                  "5a33b2c9c4a282000c5a9511"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ],
+      "CenterOfImpact": 0.23278472,
+      "Recoil": -35.00,
+      "Ergonomics": 0,
+      "Velocity": 5.4,
+      "Weight": 0.8,
+      "Accuracy": 0,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false
+    }
+  },
+  "f10498f0d29c39f9a261790b": {
+    "itemTplToClone": "633ec8e4025b096d320a3b1e",
+    "parentId": "55818a684bdc2ddd698b456d",
+    "handbookParentId": "5b5f761f86f774094242f1a1",
+    "handbookPriceRoubles": 3500,
+    "fleaPriceRoubles": 3500,
+    "addtoTraders": false,
+    "locales": {
+      "en": {
+        "name": "Mordida Venenosa grip",
+        "shortName": "Mordida Grip",
+        "description": "The sculpted serpent forms an integral part of the Mordida Venenosa grip."
+      },
+      "ch": {
+        "name": "Mordida Venenosa 握把",
+        "shortName": "Mordida 蛇形握把",
+        "description": "雕刻的蛇形饰件与 Mordida Venenosa 握把连为一体。"
+      },
+      "ja": {
+        "name": "Mordida Venenosa グリップ",
+        "shortName": "Mordida グリップ",
+        "description": "蛇の彫刻が一体となった Mordida Venenosa のグリップ。"
+      }
+    },
+    "overrideProperties": {
+      "Prefab": {
+        "path": "hawks_judge_grip_rapido.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true,
+      "CanSellOnRagfair": false,
+      "Slots": [],
+      "IsUnremovable": true,
+      "RaidModdable": false
+    }
+  },
+  "c85727fdf51091253a7d427e": {
+    "itemTplToClone": "633ec6ee025b096d320a3b15",
+    "parentId": "610720f290b75a49ff2e5e25",
+    "handbookParentId": "5b5f754a86f774094242f19b",
+    "handbookPriceRoubles": 6300,
+    "fleaPriceRoubles": 6300,
+    "addtoTraders": false,
+    "locales": {
+      "en": {
+        "name": "Mordida Venenosa cylinder",
+        "shortName": "Mordida Cyl.",
+        "description": "A five-chamber .410 cylinder in the Mordida Venenosa pattern."
+      },
+      "ch": {
+        "name": "Mordida Venenosa 转轮",
+        "shortName": "Mordida 弹巢",
+        "description": "Mordida Venenosa 样式的五膛 .410 弹巢。"
+      },
+      "ja": {
+        "name": "Mordida Venenosa シリンダー",
+        "shortName": "Mordida シリンダー",
+        "description": "Mordida Venenosa 仕様の5連 .410 シリンダー。"
+      }
+    },
+    "overrideProperties": {
+      "Prefab": {
+        "path": "hawks_judge_mag_rapido.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true,
+      "CanSellOnRagfair": true,
+      "Slots": [
+        {
+          "_id": "bd5d76611926c970dbc675a0",
+          "_mergeSlotWithChildren": false,
+          "_name": "camora_000",
+          "_parent": "c85727fdf51091253a7d427e",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "3ed19bd544854f098ce5c2bb",
+                  "36d2e4ec1ac64ab19d477d5b",
+                  "6aea74e19d394c03816fd104",
+                  "ccec315b9227caf97592e926",
+                  "225fd87e0b4eadfdee2697b2",
+                  "85a2114be976cd2e1cf0ebe7"
+                ],
+                "MaxStackCount": 1
+              }
+            ]
+          },
+          "_proto": "55d4af244bdc2d962f8b4571",
+          "_required": false
+        },
+        {
+          "_id": "19b58d87cc6f61de212ca678",
+          "_mergeSlotWithChildren": false,
+          "_name": "camora_001",
+          "_parent": "c85727fdf51091253a7d427e",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "3ed19bd544854f098ce5c2bb",
+                  "36d2e4ec1ac64ab19d477d5b",
+                  "6aea74e19d394c03816fd104",
+                  "ccec315b9227caf97592e926",
+                  "225fd87e0b4eadfdee2697b2",
+                  "85a2114be976cd2e1cf0ebe7"
+                ],
+                "MaxStackCount": 1
+              }
+            ]
+          },
+          "_proto": "55d4af244bdc2d962f8b4571",
+          "_required": false
+        },
+        {
+          "_id": "b5f710e702bb47d39d702d79",
+          "_mergeSlotWithChildren": false,
+          "_name": "camora_002",
+          "_parent": "c85727fdf51091253a7d427e",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "3ed19bd544854f098ce5c2bb",
+                  "36d2e4ec1ac64ab19d477d5b",
+                  "6aea74e19d394c03816fd104",
+                  "ccec315b9227caf97592e926",
+                  "225fd87e0b4eadfdee2697b2",
+                  "85a2114be976cd2e1cf0ebe7"
+                ],
+                "MaxStackCount": 1
+              }
+            ]
+          },
+          "_proto": "55d4af244bdc2d962f8b4571",
+          "_required": false
+        },
+        {
+          "_id": "bf17f019761a33c7edb11827",
+          "_mergeSlotWithChildren": false,
+          "_name": "camora_003",
+          "_parent": "c85727fdf51091253a7d427e",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "3ed19bd544854f098ce5c2bb",
+                  "36d2e4ec1ac64ab19d477d5b",
+                  "6aea74e19d394c03816fd104",
+                  "ccec315b9227caf97592e926",
+                  "225fd87e0b4eadfdee2697b2",
+                  "85a2114be976cd2e1cf0ebe7"
+                ],
+                "MaxStackCount": 1
+              }
+            ]
+          },
+          "_proto": "55d4af244bdc2d962f8b4571",
+          "_required": false
+        },
+        {
+          "_id": "c0c351c5053b2148e5a2492c",
+          "_mergeSlotWithChildren": false,
+          "_name": "camora_004",
+          "_parent": "c85727fdf51091253a7d427e",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "3ed19bd544854f098ce5c2bb",
+                  "36d2e4ec1ac64ab19d477d5b",
+                  "6aea74e19d394c03816fd104",
+                  "ccec315b9227caf97592e926",
+                  "225fd87e0b4eadfdee2697b2",
+                  "85a2114be976cd2e1cf0ebe7"
+                ],
+                "MaxStackCount": 1
+              }
+            ]
+          },
+          "_proto": "55d4af244bdc2d962f8b4571",
+          "_required": false
+        }
+      ],
+      "Cartridges": [
+        {
+          "_id": "1cda9c5a50e3da3c42534156",
+          "_max_count": 5,
+          "_name": "cartridges",
+          "_parent": "c85727fdf51091253a7d427e",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "3ed19bd544854f098ce5c2bb",
+                  "36d2e4ec1ac64ab19d477d5b",
+                  "6aea74e19d394c03816fd104",
+                  "ccec315b9227caf97592e926",
+                  "225fd87e0b4eadfdee2697b2",
+                  "85a2114be976cd2e1cf0ebe7"
+                ]
+              }
+            ]
+          },
+          "_proto": "5748538b2459770af276a261"
+        }
+      ]
+    }
+  },
+  "c3b85e9bbdb8f3cb76ff546e": {
+    "itemTplToClone": "5c0111ab0db834001966914d",
+    "parentId": "550aa4dd4bdc2dc9348b4569",
+    "handbookParentId": "5b5f72f786f77447ec5d7702",
+    "handbookPriceRoubles": 3500,
+    "fleaPriceRoubles": 3500,
+    "addtoTraders": false,
+    "locales": {
+      "en": {
+        "name": "12-gauge muzzle adapter",
+        "shortName": "12G Adapter",
+        "description": "A legacy 12-gauge muzzle adapter retained for existing inventories."
+      },
+      "ch": {
+        "name": "12号枪口转接座",
+        "shortName": "12G Adapter",
+        "description": "为已有库存保留的旧版 12 号枪口转接座。"
+      },
+      "ja": {
+        "name": "12ゲージマズルアダプター",
+        "shortName": "12G Adapter",
+        "description": "既存のインベントリ向けに残された旧式12ゲージアダプター。"
+      }
+    },
+    "overrideProperties": {
+      "Prefab": {
+        "path": "assets/content/items/mods/muzzle/muzzle_12g_me_muzzle_adapter_cylinder_12g.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true,
+      "CanSellOnRagfair": false,
+      "Slots": []
+    }
+  },
+  "149afeb78f2eda6a0e8cc0f7": {
+    "itemTplToClone": "55d4491a4bdc2d882f8b456e",
+    "parentId": "555ef6e44bdc2de9068b457e",
+    "handbookParentId": "5b5f75c686f774094242f19f",
+    "handbookPriceRoubles": 7000,
+    "fleaPriceRoubles": 7000,
+    "addtoTraders": false,
+    "locales": {
+      "en": {
+        "name": "Payday Barrel",
+        "shortName": "Payday Barrel",
+        "description": "A reminder to the biggest, the untouchable."
+      },
+      "ch": {
+        "name": "Payday 枪管",
+        "shortName": "Payday 枪管",
+        "description": "致那些最高高在上、无人能触及的人。"
+      },
+      "ja": {
+        "name": "Payday バレル",
+        "shortName": "Payday バレル",
+        "description": "最大にして不可侵の者たちへの戒め。"
+      }
+    },
+    "overrideProperties": {
+      "Prefab": {
+        "path": "hawks_judge_barrel_payday.bundle",
+        "rcid": ""
+      },
+      "ExaminedByDefault": true,
+      "CanSellOnRagfair": true,
+      "Slots": [
+        {
+          "_id": "44ac258c190c54786cc4d429",
+          "_parent": "149afeb78f2eda6a0e8cc0f7",
+          "_name": "mod_sight_front",
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c394bdc2dae468b4577",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "843c5ef82279b410bd43cefa"
+                ],
+                "AnimationIndex": 0
+              }
+            ]
+          }
+        },
+        {
+          "_id": "b687fa83b3083a2c66f2c63e",
+          "_parent": "149afeb78f2eda6a0e8cc0f7",
+          "_name": "mod_sight_rear",
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c394bdc2dae468b4577",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "396aa8e4ea6fecee9018a5cb"
+                ],
+                "AnimationIndex": 0
+              }
+            ]
+          }
+        },
+        {
+          "_id": "2608f073ebd2e6ce1a09435c",
+          "_parent": "149afeb78f2eda6a0e8cc0f7",
+          "_name": "mod_mount",
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c394bdc2dae468b4577",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "d812a73fab9d2b3f1478a8b4"
+                ],
+                "AnimationIndex": 0
+              }
+            ]
+          }
+        }
+      ],
+      "Weight": 1.8088,
+      "Ergonomics": -29,
+      "Recoil": -44.10,
+      "Velocity": 6.6,
+      "Accuracy": 0,
+      "CenterOfImpact": 0.23278472,
+      "ExtraSizeLeft": 1,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false
+    }
+  }
+}
