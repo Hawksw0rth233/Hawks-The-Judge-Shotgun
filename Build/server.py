@@ -63,19 +63,13 @@ spec = [
     ("mod_pistol_grip", grips, True),
     ("mod_barrel", barrels, True),
 ]
-# Match the ammunition whitelist used by the dependency's own revolver.
-provider_dir = dbroot.parents[2] / "user/mods/makeshotgunsgreatagain/db/CustomItems"
-provider = json.loads(
-    (provider_dir / "raging_judge.json").read_text(encoding="utf-8-sig")
+# Lots of Ammo provides the shared .410 rounds when MSGA is absent.
+ammo_file = (
+    dbroot.parents[2] / "user/mods/LotsOfAmmo/db/SharedItems/msga/ammo_410.json"
 )
-provider_gun = next(
-    row["overrideProperties"]
-    for row in provider.values()
-    if "defAmmo" in row["overrideProperties"]
-)
-provider_cylinder = provider[provider_gun["defMagType"]]["overrideProperties"]
-provider_rounds = provider_cylinder["Slots"][0]["_props"]["filters"][0]["Filter"]
-assert provider_gun["defAmmo"] in provider_rounds
+provider_rounds = list(json.loads(ammo_file.read_text(encoding="utf-8-sig")))
+default_ammo = "3ed19bd544854f098ce5c2bb"
+assert default_ammo in provider_rounds
 item(
     "weapon",
     body,
@@ -83,8 +77,8 @@ item(
     54000,
     dict(
         Slots=[slot("weapon", *x) for x in spec],
-        ammoCaliber=provider_gun["ammoCaliber"],
-        defAmmo=provider_gun["defAmmo"],
+        ammoCaliber="Caliber410g",
+        defAmmo=default_ammo,
         defMagType=id("Mag_Standard"),
         weapClass="shotgun",
         Width=2,

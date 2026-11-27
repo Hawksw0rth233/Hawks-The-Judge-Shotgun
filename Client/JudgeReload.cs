@@ -8,7 +8,7 @@ using UnityEngine;
 
 namespace Hawks.TheJudge
 {
-    [BepInPlugin("team.aminus.thejudge.client", "Hawks's The Judge Shotgun", "0.1.0")]
+    [BepInPlugin("team.aminus.thejudge.client", "Hawks's The Judge Shotgun", "0.1.1")]
     public sealed class TheJudgePlugin : BaseUnityPlugin
     {
         internal const string ItemId = "fac0d265ec36a83fa89e5ed8";
